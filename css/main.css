@@ -33,13 +33,11 @@ li {
     background: #f5f5f0;
 }
 
-/*etiqueta a, es elemento inline, ocupa solo su contenido,
-  no se puede modificar */
-
+/*etiqueta a, es elemento inline, ocupa solo su contenido,no se puede modificar */
 /*Estados de los enlace: link, Visited, Hover, Active */
 
 
-a {
+a  {
      /*  outline: 1px solid green; */
 
      /* cambiando la naturaleza de inline a bloque  y
@@ -51,28 +49,28 @@ a {
 
      /*agregando espacio */
      padding-left: 8px;
-
 }
 
 a:hover {
-   background: #e0e0d1 ;
+          background: #e0e0d1 ;
 }
 
 
 /* Selector descendiente - pseudoclase first-child */
 ul li:first-child {
-     /*background:  #f9a9a1;*/
-     background: #ffc107;
-
+                     /*background:  #f9a9a1;*/
+                     background: #ffc107;
 }
 
 
 ul li:first-child a {
-     color:#fff ;
-
+                      color:#fff ;
 }
 
 ul li:first-child a:hover {
-     color:#000 ;
+                            color:#000 ;
+}
 
+a:active {
+          background: #000 ;
 }
