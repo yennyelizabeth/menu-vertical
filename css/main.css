@@ -1,1 +1,57 @@
 /* Reglas de estilos */
+/* definición de reglas generales a todo documento */
+
+/* necesitamos los selectores que tienen css para
+   aplicar  estilo a cierta etiqueta etc */
+
+/* por medio de etiqueta body que es un selector
+   de etiqueta*/
+body {
+      font-family: sans-serif ;
+}
+
+/*selector de etiqueta- elemento bloque*/
+ul {
+     outline: 1px solid yellow;
+
+     /* le quita las viñetas*/
+     list-style: none;
+
+     /*quitando el estilo por defecto de navegador*/
+     margin : 0;
+     padding: 0;
+
+     /*ancho */
+     width : 150px;
+
+     line-height: 26px;
+}
+
+/*etiqueta li, es elemento bloque*/
+li {
+    /* outline: 1px solid red;*/
+    background: #f5f5f0;
+}
+
+/*etiqueta a, es elemento inline, ocupa solo su contenido,
+  no se puede modificar */
+a {
+     /*  outline: 1px solid green; */
+
+     /* cambiando la naturaleza de inline a bloque  y
+        ocupara el total de espacio*/
+     display: block;
+
+     text-decoration: none;
+     color: #000;
+
+     /*agregando espacio */
+     padding-left: 8px;
+
+}
+
+
+/* Selector descendiente - pseudoclase first-child */
+ul li: first-child {
+
+}
