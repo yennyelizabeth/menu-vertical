@@ -35,6 +35,10 @@ li {
 
 /*etiqueta a, es elemento inline, ocupa solo su contenido,
   no se puede modificar */
+
+/*Estados de los enlace: link, Visited, Hover, Active */
+
+
 a {
      /*  outline: 1px solid green; */
 
@@ -50,8 +54,25 @@ a {
 
 }
 
+a:hover {
+   background: #e0e0d1 ;
+}
+
 
 /* Selector descendiente - pseudoclase first-child */
-ul li: first-child {
+ul li:first-child {
+     /*background:  #f9a9a1;*/
+     background: #ffc107;
+
+}
+
+
+ul li:first-child a {
+     color:#fff ;
+
+}
+
+ul li:first-child a:hover {
+     color:#000 ;
 
 }
